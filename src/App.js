@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
-import Follwers from "./components/Follwers";
+import Follwers from "./components/Followers";
 import Overview from "./components/Overview";
 
 function App() {

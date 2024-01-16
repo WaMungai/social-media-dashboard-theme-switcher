@@ -6,7 +6,7 @@ import youtube from "../images/icon-youtube.svg"
 import up from "../images/icon-up.svg"
 import down from "../images/icon-down.svg"
 
-function Follwers() {
+function Followers() {
   return (
     <>
     <section className='relative z-10 max-w-7xl mx-auto py-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4'>
@@ -77,8 +77,8 @@ function Follwers() {
                     Subscribers
                 </span>
             </h2>
-            <p className='text-center text-emerald-600 flex items-center justify-center text-sm font-bold'>
-                <img src={up} alt='' className='mr-2 w-3'/>
+            <p className='text-center text-rose-600 flex items-center justify-center text-sm font-bold'>
+                <img src={down} alt='' className='mr-2 w-3'/>
                 144 today
             </p>
         </article>
@@ -87,4 +87,4 @@ function Follwers() {
   )
 }
 
-export default Follwers
+export default Followers
