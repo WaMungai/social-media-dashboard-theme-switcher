@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
+import Follwers from "./components/Follwers";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           style={{ zIndex: 0 }}
         ></div>
         <Header />
+        <Follwers />
       </section>
     </>
   );
